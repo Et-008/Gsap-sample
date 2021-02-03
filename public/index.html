@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aalimentaria sample Project</title>
+    <link href="./index.css" rel="stylesheet" >
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.11/paper-full.min.js" 
+    integrity="sha512-ehNJ9gpOQJn8EYlA3P1zUtfrh97G/6WNsjfPfpnMxbo6PX6UXHRj8Ny5MCd36w2eTPlvOSVuXLZmY+/VLVhI4A==" 
+    crossorigin="anonymous"></script>
+    <script defer type="text/javascript" src="./gsap.js" ></script>
+    <script defer type="text/javascript" src="./app.min.js" ></script>
+    <script defer type="text/paperscript" src="./animation.js" canvas="myCanvas" ></script>
+</head>
+<body>
+    <header class="container">
+        <nav>
+            <h1 class="menuLogo"><img src="./img/logo_menu.svg" />Analytica</h1>
+            <ul class="navList">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+        <section class="section1">
+            <div class="content">
+                <p class="Title1">Peace of </p>
+                <p class="Title2"><img class="TitleImg" src="./img/siteImages/red_wave.svg" alt=""> Mind in Food </p>
+                <p class="Title3">Consumption</p>
+            </div>
+            <aside class="sideContent">
+                <p>Analytica Alimentaria takes care that 
+                    food enters the market with total security.</p>
+                <p>
+                    <strong>Analytica’s values</strong>
+                    provide the basis for reaching our successes.
+                </p>
+            </aside>
+            <canvas id="myCanvas" resize></canvas>
+        </section>
+    </header>
+    <section class="section2">
+        <p class="EmptySpace space"></p>
+        <div class="ImageBox">
+            <img class="FloatingImg Image1" src="./img/siteImages/empatia2.png" alt="">
+        </div>
+        <p class="EmptySpace space1"></p>
+        <div class="ImageBox">
+            <img class="FloatingImg Image2" src="./img/siteImages/equipo2.png" alt="">
+        </div>
+        <p class="EmptySpace space2"></p>
+        <div class="ImageBox">
+            <img class="FloatingImg Image3" src="./img/siteImages/positividad2.png" alt="">
+        </div>
+        <!-- <p class="EmptySpace space3"></p> -->
+        <div class="ImageBox">
+            <img class="FloatingImg Image4" src="./img/siteImages/desarrollo-evolucion2.png" alt="">
+        </div>
+        <p class="EmptySpace space4"></p>
+        <!-- <div class="ImageBox">
+            <img class="FloatingImg Image5" src="./img/siteImages/2-passion-1.png" alt="">
+        </div>
+        <p class="EmptySpace"></p> -->
+        <!-- <div class="backgroundImageDiv">
+            <img class="backgroundImage one" src="./img/background.jpg" alt="Error">
+            
+            <img class="backgroundImage two" src="./img/background2.jpg" alt="Error">
+            <img class="backgroundImage three" src="./img/background3.jpg" alt="Error">
+
+        </div> -->
+    </section>
+        
+    <footer>The End</footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js" 
+    integrity="sha512-JO6JyFPJupQKZf7icgZkHwuq/rAQxH7COqvEd4WdK52AtHPedwHog05T69pIelI69jVN/zZbW6TuHfH2mS8j/Q==" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/ScrollTrigger.min.js" 
+    integrity="sha512-FtkvR55hPH9dKb4c5j71UgIV8ut79QpPNo4tiJUPXk8fKMmCdmZk9o8/sxpYONZIVJyw3T3KqzAZ2YFEZRWc+g==" 
+    crossorigin="anonymous"></script>
+</body>
+</html>
